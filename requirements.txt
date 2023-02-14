@@ -6,3 +6,7 @@ sqlparse==0.4.3
 typing_extensions==4.1.1
 psycopg2-binary==2.9.5
 dj-database-url==1.2.0
+flake8-4.0.1
+pytest==7.0.1
+pytest-django==4.5.2
+coverage==6.2
