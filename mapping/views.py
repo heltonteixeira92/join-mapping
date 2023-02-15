@@ -34,7 +34,7 @@ class GLatLngPopup(LatLngPopup):
 
 def home(request):
     points = Mapping.objects.all()
-    m = folium.Map(location=[-15.793889, -47.882778], zoom_start=11)
+    m = folium.Map(location=[-23.5918264, -46.6576057], zoom_start=11)
 
     for point in points:
         coord = (point.latitude, point.longitude)

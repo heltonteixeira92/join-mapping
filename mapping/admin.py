@@ -6,4 +6,3 @@ from .models import Mapping
 class MappingAdmin(admin.ModelAdmin):
     list_display = 'name', 'latitude', 'longitude', 'expiration_date'
 
-
