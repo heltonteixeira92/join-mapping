@@ -49,7 +49,6 @@ def home(request):
 
 
 def create(request):
-    # import ipdb;ipdb.set_trace()
     if request.method == 'POST':
         name = request.POST.get('name')
         latitude = request.POST.get('latitude')
