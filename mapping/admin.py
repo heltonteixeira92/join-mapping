@@ -1,3 +1,9 @@
-from django.contrib import admin # noqa
+from django.contrib import admin
+from .models import Mapping
 
-# Register your models here.
+
+@admin.register(Mapping)
+class MappingAdmin(admin.ModelAdmin):
+    list_display = 'name', 'latitude', 'longitude', 'expiration_date'
+
+
