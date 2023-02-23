@@ -9,6 +9,7 @@ RUN apt update -y \
     && apt install -y --no-install-recommends \
     build-essential \
     libpq-dev \
+    wait-for-it \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
