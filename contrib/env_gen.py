@@ -16,7 +16,7 @@ DEBUG=True
 SECRET_KEY=%s
 ALLOWED_HOSTS=127.0.0.1,.localhost,0.0.0.0
 
-#DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
+DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres
 
 """.strip() % secret_key
 

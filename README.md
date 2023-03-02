@@ -1,6 +1,13 @@
 # join-mapping
 job interview
 
+### COM DOCKER
+apenas rodar o comando abaixo:
+
+``cp contrib/env-sample .env``
+
+`docker-compose up`
+
 ### Criando ambiente virtual
 
 ``python -m venv .venv``
